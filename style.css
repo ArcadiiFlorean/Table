@@ -1,0 +1,77 @@
+.table__section {
+  height: 650px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  min-width: 1000px;
+  border-collapse: collapse;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background-color: bisque;
+  font-weight: 400;
+  font-size: 12px;
+  color: black;
+}
+
+th,
+td {
+  border-bottom: 1px solid rgb(230, 223, 223);
+  padding: 10px 20px;
+  text-align: center;
+}
+
+tr:hover td {
+  color: blueviolet;
+  cursor: pointer;
+  background-color: rgb(253, 238, 221);
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.table__btn--left {
+  border-radius: 44px;
+  padding: 8px 21px;
+  width: 83px;
+  height: 36px;
+  background: rgba(225, 76, 87, 0.1);
+  font-weight: 600;
+  font-size: 12px;
+  color: #fd3f05;
+  border: none;
+  cursor: pointer;
+}
+
+.table__btn--left:hover {
+  background-color: rgb(255, 247, 0);
+  color: #000000;
+  transition: all 0.5s ease;
+
+}
+.table__btn--right {
+  border-radius: 44px;
+  padding: 8px 21px;
+  width: 82px;
+  height: 36px;
+  background: #2463f5;
+  font-family: var(--font4);
+  font-weight: 600;
+  font-size: 12px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.table__btn--right:hover {
+    background-color: rgb(255, 247, 0);
+    color: #000000;
+    transition: all 0.5s ease;
+  }
